@@ -35,7 +35,7 @@ ggpairs(iris, ggplot2::aes(colour = Species, alpha = 0.4))
 
 plot(svm_model, data=iris,
      Petal.Width~Petal.Length,
-     slice = list(Sepal.Width=2, Sepal.Length=3) 
+     slice = list(Sepal.Width=3, Sepal.Length=4) 
 )
 
 #from the graph you can see data, support vector(represented by cross sign) 
