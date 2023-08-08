@@ -1,7 +1,7 @@
 #e1071 will be used for Support Vector Classification.
-#install.packages("e1071")
-#install.packages("GGally")
-#install.packages("ggplot2")
+install.packages("e1071")
+install.packages("GGally")
+install.packages("ggplot2")
 
 library(e1071)
 library(GGally)
