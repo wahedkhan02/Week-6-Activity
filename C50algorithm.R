@@ -1,7 +1,7 @@
 #The C5.0 algorithm
 #First install these packages
-#install.packages("C50")
-#install.packages("dplyr")
+install.packages("C50")
+install.packages("dplyr")
 library(dplyr)
 
 #get the iris dataset (for more info https://en.wikipedia.org/wiki/Iris_flower_data_set)
@@ -25,12 +25,12 @@ iris_train <- rbind(iris_setosa[1:35,], iris_versicolor[1:35,], iris_virginica[1
 iris_test <- rbind(iris_setosa[36:50,], iris_versicolor[36:50,], iris_virginica[36:50,])
 
 #spliting randomly
-#install caret lib which is used to split the dataset
-#install.packages("caret")
+install caret lib which is used to split the dataset
+install.packages("caret")
 library(caret)
 
-#install.packages("lattice")
-#install.packages("ggplot2")
+install.packages("lattice")
+install.packages("ggplot2")
 
 library(lattice)
 library(ggplot2)
@@ -57,7 +57,7 @@ summary(testData)
 mean(testData$Species == predict(dtModel, testData))
 
 #cross table
-#install.packages("gmodels")
+install.packages("gmodels")
 library(gmodels)
 CrossTable(testData$Species,predict(dtModel, testData))
 
