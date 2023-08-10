@@ -1,3 +1,5 @@
+The use of K-Means Clustering, C5.0 Classification, and Support Vector Classification (SVC) methods on the Iris dataset is illustrated by the code snippets below. The data are preprocessed and clustered in the K-Means portion, which provides an approximation accuracy of 86%. While the C5.0 Classification section trains a model with an approximate accuracy of 86.67%, the SVC segment uses an SVM model with a remarkable accuracy of 97.33%. Together, these code snippets demonstrate clustering, classification, preprocessing, visualization, and accuracy assessment techniques, providing a thorough examination of the Iris dataset.
+
 SVM Accuracy: 97.33%
 K Means Accuracy: 86%
 C50 Accuracy: 86.67%
